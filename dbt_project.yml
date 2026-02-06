@@ -31,7 +31,7 @@ seeds:
   +schema: raw_data
 
 on-run-start:
-  - "CREATE DATABASE IF NOT EXISTS dbtcloud_raw_data"
-  - "CREATE DATABASE IF NOT EXISTS dbtcloud_bronze_layer"
-  - "CREATE DATABASE IF NOT EXISTS dbtcloud_silver_layer"
-  - "CREATE DATABASE IF NOT EXISTS dbtcloud_gold_layer"
+  - "CREATE DATABASE IF NOT EXISTS demo_raw_data"
+  - "CREATE DATABASE IF NOT EXISTS demo_bronze_layer"
+  - "CREATE DATABASE IF NOT EXISTS demo_silver_layer"
+  - "CREATE DATABASE IF NOT EXISTS demo_gold_layer"
